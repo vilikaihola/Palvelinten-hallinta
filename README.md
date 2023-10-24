@@ -1,2 +1,2 @@
-# H0
-H0 tuntitehtävä
+# H0 tuntitehtävä
+print("Hello, World!")
