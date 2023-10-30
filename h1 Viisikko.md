@@ -25,6 +25,7 @@ b) Viisi tärkeintä. Näytä esimerkit viidestä tärkeimmästä Saltin tilafun
   user= Ensimmäisellä käskyllä luotiin uusi käyttäjä terote08 ja toisella komennolla poistettiin käyttäjä terote08.
 cmd= 
 Komento $ sudo salt-call --local -l info state.single cmd.run 'touch /tmp/foo' creates="/tmp/foo" suorittaa touch /tmp/foo -komentoa luoden uuden tyhjän tiedoston nimeltä /tmp/foo, jos sitä ei ole olemassa. Parametri creates="/tmp/foo" estää komennon suorituksen, jos tiedosto on jo olemassa. Ilmoitus "succeeded (changed=1)" tarkoittaa, että tiedosto luotiin onnistuneesti.
+#
 c) Idempotentti. Anna esimerkki idempotenssista. Aja 'salt-call --local' komentoja, analysoi tulokset, selitä miten idempotenssi ilmenee.
   Esimerkki idempotenssista käyttäen salt-call --local -komentoja:
 
@@ -39,6 +40,7 @@ Ensimmäisellä suorituksella tiedosto poistetaan, ja output on "succeeded (chan
 Idempotenssin ilmeneminen:
 
 Idempotenssi ilmenee siinä, että toisen suorituksen aikana järjestelmän tila ei muuttunut, koska haluttu tila oli jo saavutettu ensimmäisen suorituksen aikana. Komennon toistuva suorittaminen ei aiheuttanut muutoksia järjestelmän tilassa, mikä on idempotenssin ydin.
+#
 d) Tietoa koneesta. Kerää tietoja koneesta Saltin grains.items -tekniikalla. Poimi kolme kiinnostavaa kohtaa, näytä tulokset ('grains.item osfinger virtual') ja analysoi ne.
   Productname=VirtualBox: Järjestelmäsi on virtualisoitu Oracle VirtualBox -alustalla.
 os_family=Debian: Käytössäsi on Debian-käyttöjärjestelmäperheen jakelu.
