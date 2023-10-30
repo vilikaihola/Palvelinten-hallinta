@@ -1,19 +1,23 @@
-#
+## H1 Viisikko
 x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
+#
 Karvinen 2023: Create a Web Page Using Github
 -Rekisteröidy Githubiin ja luo uusi repositorio (lisää README.md-tiedosto luodessasi).
 -Lisää .md-tiedosto verkkosivullesi, kirjoita tekstiä ja tee commit.
 -Sivusi julkaistaan automaattisesti.
 -Markdown mahdollistaa otsikoiden, tekstikappaleiden ja koodin helpon muotoilun.
 -Voit myöhemmin edetä Githubin edistyneempiin ominaisuuksiin ja kokeilla vastaavia toimintoja Gitlabissa tai muissa Git-pohjaisissa palveluissa.
+#
 Karvinen 2023: Run Salt Command Locally
 -Salt-komentoja voidaan ajaa paikallisesti harjoitteluun, testaukseen ja nopeaan asetukseen.
 -Tärkeimmät tilafunktiot ovat pkg, file, service, user ja cmd.
 -Salt asennetaan normaalisti ohjaamaan useita orjakoneita verkossa, mutta voidaan käyttää myös paikallisesti.
 -Esimerkkejä komentojen käytöstä Debianissa tai Ubuntussa annettu, kuten sovellusten asennus ja poisto, tiedostojen hallinta, palveluiden käynnistys ja pysäytys, käyttäjien luominen ja poistaminen, sekä komentojen suorittaminen.
 -Komentojen idempotenssi varmistetaan määritteillä kuten creates, unless, ja onlyif.
+#
 a) Asenna Salt (salt-minion) koneellesi.
   Asensin Salt:in käyttämällä Teron ohjeita (https://terokarvinen.com/2023/configuration-management-2023-autumn/)
+  #
 b) Viisi tärkeintä. Näytä esimerkit viidestä tärkeimmästä Saltin tilafunktiosta: pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
   pkg= pkg installed ja pkg removed ovat tilafunktioita jotka hallitsevat ohjelmistopakettien asennusta ja poistoa järjestelmästä. Molemmat komennot antoivat outputin succeeded, eli ilmeisesti ne onnistuivat
   file= Ensimmäinen komento luo tyhjän tiedoston nimeltä /tmp/hellotero, jos sitä ei ole olemassa. Toinen komento luo tiedoston /tmp/moitero sisällöllä "foo", tai päivittää sen sisällön "foo":ksi, jos tiedosto on jo olemassa. Kolmas komento poistaa tiedoston /tmp/hellotero, jos se on olemassa. Kaikkien komentojen suoritus ilmoitti "succeeded (changed 1)", mikä tarkoittaa, että jokainen komento muutti järjestelmän tilaa onnistuneesti.
