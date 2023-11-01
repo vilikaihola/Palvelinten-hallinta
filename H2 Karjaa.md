@@ -27,6 +27,9 @@
 
 ### c) Oma orjansa. Asenna Salt herra ja orja samalle koneelle.
 
+Tein ensin filen oman rautani komentorivillä (mkdir c:\users\vilik\vagrant\debian). Jonka jälkeen suoritin juuri luodussa sijainnissa vagrant init debian\bullseye64. Sitten testasin netin (Ping google.com). Sitten muokkasin tehtyä Vagrantfileä ja lisäsin ohjeiden mukaisen skriptin siihen. Tämän jälkeen komentorivillä siirryin taas \users\vilik\vagrant\debian ja suoritin siellä komennon vagrant up. Kuvat kertovat tästä ja mitä tapahtui sen jälkeen.
+
+
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/e33a31e6-edd4-4e44-8f81-12dc609e6e88)
 
 ### d) Asenna Saltin herra-orja arkkitehtuuri toimimaan verkon yli.
