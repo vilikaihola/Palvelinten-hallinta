@@ -106,3 +106,11 @@ En oikein saanut kiinni tässä osiossa, että mitä käskyjen outputeilla oli e
     $ exit
 
     $ vagrant destroy
+
+### References
+
+Karvinen 2023: Salt Vagrant - automatically provision one master and two slaves
+
+Karvinen 2017: Vagrant Revisited – Install & Boot New Virtual Machine in 31 seconds
+
+Slater 2017: What is the definition of "cattle not pets"?.
