@@ -32,6 +32,7 @@
 ### d) Asenna Saltin herra-orja arkkitehtuuri toimimaan verkon yli.
 
   Aloitin hyväksymällä avaimet tmaster herralla
+  
   ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/e9af9842-26b4-453d-919a-1c2e70fa5dcb)
 
 Tämän jälkeen  käytin komentoa: $ sudo salt '*' test.ping testatakseni yhteyden koneiden välillä. 
