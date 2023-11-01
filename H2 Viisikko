@@ -21,3 +21,5 @@
 - Virtuaalikoneiden asennus ja konfigurointi tehdään automaattisesti Vagrantfile-tiedoston määrittelemien asetusten mukaan.
 - Vagrantin ja Salin avulla voidaan hallita virtuaalikoneita, asentaa ohjelmistoja, käynnistää/pysäyttää palveluita, hallita käyttäjiä ja toteuttaa "Infra as Code" -periaatetta.
 - Virtuaalikoneet voidaan myös poistaa helposti komennolla 'vagrant destroy', mikä tukee "cattle, not pets" -periaatetta infrastruktuurin hallinnassa.
+
+a) 
