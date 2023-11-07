@@ -80,7 +80,7 @@ En kokenut tarpeelliseksi suorittaa viimeistä komentoa, sillä yllolevat ajoiva
 
 ### f) Kerää teknistä tietoa orjista verkon yli (grains.item)
 
-Ensimmäiseksi kokeilin käskyä, joka ilmeisesti listasi aivan kaiken, mitä tmastein järjestelmässä oli: 
+Ensimmäiseksi kokeilin käskyä, joka ilmeisesti listasi aivan kaiken, mitä tmasterin järjestelmässä oli: 
 
     $ sudo salt '*' grains.items
 
