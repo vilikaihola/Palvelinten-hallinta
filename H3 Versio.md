@@ -41,7 +41,8 @@ Seuraavassa kohdasssa kohtasin pienimuotoisen ongelman,joka johtui siitä että 
 
 #### 4. Onnistunut lopputulos näyttti selaimessa vastaavalta:
 
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/10823de4-a860-4484-a15d-7932bcca6ff1)
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/4dcbab20-c8eb-4d61-ae48-6b4574ed5a5e)
+
 
 ### c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
@@ -96,5 +97,7 @@ Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä, t
 ### Lähteet
 
 https://chat.openai.com/
+
 https://github.com/Seppohto/Palvelinten-hallinta-Haaga-Helia/
+
 https://terokarvinen.com/2023/configuration-management-2023-autumn/
