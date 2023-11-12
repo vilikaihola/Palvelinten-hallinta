@@ -49,4 +49,27 @@ Kohdassa c käytin git reset --hard -komentoa Git-repositoriossani. Tämä komen
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/de43d0f6-2503-4640-8e64-50435aa497ed)
 
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/0319e5d3-ddd3-48dc-b11a-4c99f64f5050)
+
+
+### d) Tukki. Tarkastele ja selitä varastosi lokia. Tarkista, että nimesi ja sähköpostiosoitteesi näkyy haluamallasi tavalla ja korjaa tarvittaessa.
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/a4f30b71-75f5-4b95-bc48-d3fd779df6bf)
+
+
+Git-logissa winteriscoming-repositoriossa näkyy sarja commiteja, jotka olen tehnyt. Tässä on tiivistelmä logista:
+
+Viimeisin Commit:
+
+Viimeisin commit, merkitty tunnuksella e4b401e, tehtiin 12. marraskuuta 2023, jossa SNOW.md-tiedostoa päivitettiin käyttäen echo-komentoa.
+Merge Commit:
+
+Logissa on myös yhdistämiscommit (merge commit), tunnuksella 9aae901, tehty samana päivänä. Tämä näyttäisi olevan yhdistäminen etärepositoryn kanssa.
+Aiemmat Muutokset:
+
+Logissa näkyy useita päivityksiä README.md-tiedostoon. Aluksi commitit tehtiin käyttäen GitHubin generoimaa anonymisoitua sähköpostiosoitetta, mutta myöhemmissä commiteissa käytin henkilökohtaista sähköpostiosoitettani.
+Sähköpostiosoitteen Muutos:
+
+Muutin Git-konfiguraatioasetuksiani, mukaan lukien sähköpostiosoitteeni, komennolla $ git config --global user.email "-". Tämä tarkoittaa, että tulevissa commiteissa näkyy tämä uusi sähköpostiosoite.
+Yhteenvetona, Git-logista käy ilmi, että olen tehnyt useita päivityksiä, erityisesti SNOW.md- ja README.md-tiedostoihin, ja että olen vaihtanut sähköpostiosoitettani Gitin konfiguraatioasetuksissa. Lisäksi logissa on tietoa repositoryn yhdistämisestä GitHubin etärepositoryn kanssa.
 
