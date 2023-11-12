@@ -60,7 +60,7 @@ Seuraavassa kohdasssa kohtasin pienimuotoisen ongelman,joka johtui siitä että 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/377daf72-2563-4776-a012-6c27841acec5)
 
 
-Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä, tällä kertaa käyttäen winterfell nimistä varastoa. Tämä ei tuottanut vaikeuksia. Kuvittain alhaalta ylös toimin seuraavasti: Ensin loin avaimet, jonka jälkeen kävin lyömässä ne kopioinnin jälkeen githubiini. Tämän jälkeen turvallisinta olisi tarkistaa, että yhdistämäni palvelimen sormenjälki vastaa GitHubin julkaisemaa sormenjälkeä. vastataan bashille "yes", ja sen jälkeen testattiin yhteys. Tämän jälkeen suoritin kloonauksen ssh:n kautta.
+Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä, tällä kertaa käyttäen winterfell nimistä varastoa. Tämä ei tuottanut vaikeuksia. Kuvittain alhaalta ylös toimin seuraavasti: Ensin loin avaimet, jonka jälkeen kävin lyömässä ne kopioinnin jälkeen githubiini. Tämän jälkeen turvallisinta olisi tarkistaa, että yhdistämäni palvelimen sormenjälki vastaa GitHubin julkaisemaa sormenjälkeä. Vastataan bashille "yes", ja sen jälkeen testattiin yhteys. Tämän jälkeen suoritin kloonauksen ssh:n kautta.
 
 ### c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
