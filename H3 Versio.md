@@ -10,6 +10,24 @@ Loin uuden GitHub-varaston nimeltä "winteriscoming", joka täyttää annetut va
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/f0bbd985-9400-4739-b5cf-ed091846a651)
 
+### SSH
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9ce7f1e8-aa59-4ae9-90b8-121636a1b57a)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/924375ca-686d-4a26-9020-47fe2a932430)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/833002be-64b1-4ed7-879d-cf5189fbdf2b)
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/49fc7601-4244-4e9b-bae5-18879ebafce0)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/377daf72-2563-4776-a012-6c27841acec5)
+
+
+Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä, tällä kertaa käyttäen winterfell nimistä varastoa. Tämä ei tuottanut vaikeuksia. Kuvittain alhaalta ylös toimin seuraavasti: Ensin loin avaimet, jonka jälkeen kävin lyömässä ne kopioinnin jälkeen githubiini. Tämän jälkeen turvallisinta olisi tarkistaa, että yhdistämäni palvelimen sormenjälki vastaa GitHubin julkaisemaa sormenjälkeä. Vastataan bashille "yes", ja sen jälkeen testattiin yhteys. Tämän jälkeen suoritin kloonauksen ssh:n kautta.
+
 #### 1. Muutosten Lisääminen (git add .):
 
 Tämä komento lisää kaikki paikallisen hakemiston muutetut tiedostot Gitin seurantaan valmistellen niitä tallennettavaksi (commit). Piste (.) merkitsee, että kaikki muutokset nykyisessä hakemistossa lisätään, mukaan lukien uudet, muutetut ja poistetut tiedostot.
@@ -43,24 +61,6 @@ Seuraavassa kohdasssa kohtasin pienimuotoisen ongelman,joka johtui siitä että 
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/4dcbab20-c8eb-4d61-ae48-6b4574ed5a5e)
 
-
-### SSH
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9ce7f1e8-aa59-4ae9-90b8-121636a1b57a)
-
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/924375ca-686d-4a26-9020-47fe2a932430)
-
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/833002be-64b1-4ed7-879d-cf5189fbdf2b)
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/49fc7601-4244-4e9b-bae5-18879ebafce0)
-
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/377daf72-2563-4776-a012-6c27841acec5)
-
-
-Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä, tällä kertaa käyttäen winterfell nimistä varastoa. Tämä ei tuottanut vaikeuksia. Kuvittain alhaalta ylös toimin seuraavasti: Ensin loin avaimet, jonka jälkeen kävin lyömässä ne kopioinnin jälkeen githubiini. Tämän jälkeen turvallisinta olisi tarkistaa, että yhdistämäni palvelimen sormenjälki vastaa GitHubin julkaisemaa sormenjälkeä. Vastataan bashille "yes", ja sen jälkeen testattiin yhteys. Tämän jälkeen suoritin kloonauksen ssh:n kautta.
 
 ### c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
