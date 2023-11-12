@@ -44,6 +44,24 @@ Seuraavassa kohdasssa kohtasin pienimuotoisen ongelman,joka johtui siitä että 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/4dcbab20-c8eb-4d61-ae48-6b4574ed5a5e)
 
 
+### SSH
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9ce7f1e8-aa59-4ae9-90b8-121636a1b57a)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/924375ca-686d-4a26-9020-47fe2a932430)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/833002be-64b1-4ed7-879d-cf5189fbdf2b)
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/49fc7601-4244-4e9b-bae5-18879ebafce0)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/377daf72-2563-4776-a012-6c27841acec5)
+
+
+Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä, tällä kertaa käyttäen winterfell nimistä varastoa. Tämä ei tuottanut vaikeuksia. Kuvittain alhaalta ylös toimin seuraavasti: Ensin loin avaimet, jonka jälkeen kävin lyömässä ne kopioinnin jälkeen githubiini. Tämän jälkeen turvallisinta olisi tarkistaa, että yhdistämäni palvelimen sormenjälki vastaa GitHubin julkaisemaa sormenjälkeä. vastataan bashille "yes", ja sen jälkeen testattiin yhteys. Tämän jälkeen suoritin kloonauksen ssh:n kautta.
+
 ### c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
 Kohdassa c käytin git reset --hard -komentoa Git-repositoriossani. Tämä komento peruutti kaikki paikalliset, vielä commitoimattomat muutokset ja palautti repositorioni viimeisimpään commitoitavaan tilaan. Toisin sanoen, kaikki tekemäni tiedostomuokkaukset, uudet tiedostot ja muut muutokset, joita en ollut vielä vahvistanut, hylättiin pysyvästi. Tämän komennon seurauksena repositorioni palasi "puhtaaseen" tilaan, joka vastaa viimeisintä tallennettua commitia. Tämä toimenpide oli peruuttamaton, ja kaikki poistetut muutokset ovat menetettyjä
@@ -76,22 +94,6 @@ Sähköpostiosoitteen Muutos:
 
 Muutin Git-konfiguraatioasetuksiani, mukaan lukien sähköpostiosoitteeni, komennolla $ git config --global user.email "-". Tämä tarkoittaa, että tulevissa commiteissa näkyy tämä uusi sähköpostiosoite.
 Yhteenvetona, Git-logista käy ilmi, että olen tehnyt useita päivityksiä, erityisesti SNOW.md- ja README.md-tiedostoihin, ja että olen vaihtanut sähköpostiosoitettani Gitin konfiguraatioasetuksissa. Lisäksi logissa on tietoa repositoryn yhdistämisestä GitHubin etärepositoryn kanssa.
-
-### SSH
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9ce7f1e8-aa59-4ae9-90b8-121636a1b57a)
-
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/924375ca-686d-4a26-9020-47fe2a932430)
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/49fc7601-4244-4e9b-bae5-18879ebafce0)
-
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/377daf72-2563-4776-a012-6c27841acec5)
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/833002be-64b1-4ed7-879d-cf5189fbdf2b)
-
-Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä, tällä kertaa käyttäen winterfell nimistä varastoa. Tämä ei tuottanut vaikeuksia.
 
 
 ### Lähteet
