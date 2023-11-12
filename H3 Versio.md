@@ -8,6 +8,9 @@ Loin uuden GitHub-varaston nimeltä "winteriscoming", joka täyttää annetut va
 
  Ajoin ensiksi komennon git clone https://github.com/vilikaihola/winteriscoming git versionhallintatyökalun terminaalissa, joka toimi mainiosti:
 
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/f0bbd985-9400-4739-b5cf-ed091846a651)
+
+
 
 
 
