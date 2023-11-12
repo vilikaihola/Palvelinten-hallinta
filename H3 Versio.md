@@ -62,14 +62,30 @@ Git-logissa winteriscoming-repositoriossa näkyy sarja commiteja, jotka olen teh
 Viimeisin Commit:
 
 Viimeisin commit, merkitty tunnuksella e4b401e, tehtiin 12. marraskuuta 2023, jossa SNOW.md-tiedostoa päivitettiin käyttäen echo-komentoa.
+
 Merge Commit:
 
 Logissa on myös yhdistämiscommit (merge commit), tunnuksella 9aae901, tehty samana päivänä. Tämä näyttäisi olevan yhdistäminen etärepositoryn kanssa.
+
 Aiemmat Muutokset:
 
-Logissa näkyy useita päivityksiä README.md-tiedostoon. Aluksi commitit tehtiin käyttäen GitHubin generoimaa anonymisoitua sähköpostiosoitetta, mutta myöhemmissä commiteissa käytin henkilökohtaista sähköpostiosoitettani.
+Logissa näkyy useita päivityksiä README.md-tiedostoon. Aluksi commitit tehtiin käyttäen GitHubin generoimaa anonymisoitua sähköpostiosoitetta, mutta myöhemmissä commiteissa käytin henkilökohtaista sähköpostiosoitettani
+
 Sähköpostiosoitteen Muutos:
 
 Muutin Git-konfiguraatioasetuksiani, mukaan lukien sähköpostiosoitteeni, komennolla $ git config --global user.email "-". Tämä tarkoittaa, että tulevissa commiteissa näkyy tämä uusi sähköpostiosoite.
 Yhteenvetona, Git-logista käy ilmi, että olen tehnyt useita päivityksiä, erityisesti SNOW.md- ja README.md-tiedostoihin, ja että olen vaihtanut sähköpostiosoitettani Gitin konfiguraatioasetuksissa. Lisäksi logissa on tietoa repositoryn yhdistämisestä GitHubin etärepositoryn kanssa.
+
+### SSH
+
+Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä.
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/924375ca-686d-4a26-9020-47fe2a932430)
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/49fc7601-4244-4e9b-bae5-18879ebafce0)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/377daf72-2563-4776-a012-6c27841acec5)
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/833002be-64b1-4ed7-879d-cf5189fbdf2b)
 
