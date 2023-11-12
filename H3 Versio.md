@@ -45,3 +45,8 @@ Seuraavassa kohdasssa kohtasin pienimuotoisen ongelman,joka johtui siitä että 
 
 ### c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
+Kohdassa c käytin git reset --hard -komentoa Git-repositoriossani. Tämä komento peruutti kaikki paikalliset, vielä commitoimattomat muutokset ja palautti repositorioni viimeisimpään commitoitavaan tilaan. Toisin sanoen, kaikki tekemäni tiedostomuokkaukset, uudet tiedostot ja muut muutokset, joita en ollut vielä vahvistanut, hylättiin pysyvästi. Tämän komennon seurauksena repositorioni palasi "puhtaaseen" tilaan, joka vastaa viimeisintä tallennettua commitia. Tämä toimenpide oli peruuttamaton, ja kaikki poistetut muutokset ovat menetettyjä
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/de43d0f6-2503-4640-8e64-50435aa497ed)
+
+
