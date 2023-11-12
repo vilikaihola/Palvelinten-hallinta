@@ -78,7 +78,8 @@ Yhteenvetona, Git-logista käy ilmi, että olen tehnyt useita päivityksiä, eri
 
 ### SSH
 
-Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä.
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9ce7f1e8-aa59-4ae9-90b8-121636a1b57a)
+
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/924375ca-686d-4a26-9020-47fe2a932430)
 
@@ -89,3 +90,4 @@ Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä.
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/833002be-64b1-4ed7-879d-cf5189fbdf2b)
 
+Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä, tällä kertaa käyttäen winterfell nimistä varastoa. Tämä ei tuottanut vaikeuksia.
