@@ -10,7 +10,20 @@ Loin uuden GitHub-varaston nimeltä "winteriscoming", joka täyttää annetut va
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/f0bbd985-9400-4739-b5cf-ed091846a651)
 
+#### 1. Muutosten Lisääminen (git add .):
 
+Tämä komento lisää kaikki paikallisen hakemiston muutetut tiedostot Gitin seurantaan valmistellen niitä tallennettavaksi (commit). Piste (.) merkitsee, että kaikki muutokset nykyisessä hakemistossa lisätään, mukaan lukien uudet, muutetut ja poistetut tiedostot.
+Tämä vaihe on välttämätön, koska Git ei automaattisesti ota huomioon kaikkia muutoksia, vaan sinun täytyy erikseen kertoa Gitille, mitkä muutokset haluat sisällyttää seuraavaan commitiin.
 
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/6b0c9ed1-c316-4ba8-9c18-550dc87bb2f1)
 
+Seuraavassa kohdasssa kohtasin pienimuotoisen ongelman,joka johtui siitä että olin tehnyt muutoksia "winteriscoming" repositoryyn näiden askeleiden välissä. 
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/3c682e4a-cdbf-4b76-993e-6f12c1ba3aff)
+
+Ongelma ratkesi ajamalla komennon git pull origin main, jonka jälkeen git push komento toimi toivotulla tavalla.
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/24ce49f9-406b-4ec8-ac29-4ca49d2e571a)
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/5416cc11-f29d-4697-9ace-e8ad8d25f7dd)
 
