@@ -23,7 +23,8 @@ Seuraavassa kohdasssa kohtasin pienimuotoisen ongelman,joka johtui siitä että 
 
 Ongelma ratkesi ajamalla komennon git pull origin main, jonka jälkeen git push komento toimi toivotulla tavalla.
 
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/24ce49f9-406b-4ec8-ac29-4ca49d2e571a)
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/ef812601-e57a-4b6b-9d44-3af6ff2ee91f)
 
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/5416cc11-f29d-4697-9ace-e8ad8d25f7dd)
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/c478fcfa-99c1-48ee-a3a0-07e257ff12eb)
 
