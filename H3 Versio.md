@@ -98,8 +98,6 @@ Yhteenvetona, Git-logista käy ilmi, että olen tehnyt useita päivityksiä, eri
 
 ### Lähteet
 
-https://chat.openai.com/
-
 https://github.com/Seppohto/Palvelinten-hallinta-Haaga-Helia/
 
 https://terokarvinen.com/2023/configuration-management-2023-autumn/
