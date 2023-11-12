@@ -2,7 +2,7 @@
 
 ### a) Online. Tee uusi varasto GitHubiin (tai Gitlabiin tai mihin vain vastaavaan palveluun). Varaston nimessä ja lyhyessä kuvauksessa tulee olla sana "winter". Aiemmin tehty varasto ei kelpaa. (Muista tehdä varastoon tiedostoja luomisvaiheessa, esim README.md ja GNU General Public License 3)
 
-Loin uuden GitHub-varaston nimeltä "winteriscoming", joka täyttää annetut vaatimukset: varaston nimi ja kuvaus sisältävät sanan "winter". Varastoon lisäsin alustavat tiedostot, kuten README.md, joka antaa perustiedot projektista, ja GNU General Public License 3 -lisenssin, joka määrittelee ohjelmiston käyttöehdot. Tämä varasto on nyt valmis talviaiheisille ohjelmistoprojekteille ja niiden dokumentoinnille.
+Loin uuden GitHub-varaston nimeltä "winteriscoming", joka täyttää annetut vaatimukset: varaston nimi ja kuvaus sisältävät sanan "winter". Varastoon lisäsin alustavat tiedostot, kuten README.md, joka antaa perustiedot projektista, ja GNU General Public License 3 -lisenssin, joka määrittelee ohjelmiston käyttöehdot.
 
 ### b) Dolly. Kloonaa edellisessä kohdassa tehty uusi varasto itsellesi, tee muutoksia, puske ne palvelimelle, ja näytä, että ne ilmestyvät weppiliittymään.
 
@@ -91,3 +91,10 @@ Yhteenvetona, Git-logista käy ilmi, että olen tehnyt useita päivityksiä, eri
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/833002be-64b1-4ed7-879d-cf5189fbdf2b)
 
 Kokeilin vielä suorittaa tehtävän ensimmäiset askeleet SSH menetelmällä, tällä kertaa käyttäen winterfell nimistä varastoa. Tämä ei tuottanut vaikeuksia.
+
+
+### Lähteet
+
+https://chat.openai.com/
+https://github.com/Seppohto/Palvelinten-hallinta-Haaga-Helia/
+https://terokarvinen.com/2023/configuration-management-2023-autumn/
