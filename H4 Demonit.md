@@ -151,6 +151,12 @@ Kun olin poistanut Apache2:n ja kokeillut sen poissaolon ( sudo salt 't001' stat
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/1d53e351-ef81-4c62-9fd0-f3cb3b818833)
 
+Ajoin uudelleen tilatiedoston:
 
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/81149bcc-0f8f-4ba3-8ad9-a6e7dc5a8176)
 
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9853a9e2-7cd1-49bc-b109-e03663032932)
+Molemmilla koneilla Succeeded: 2(changed=2). Seuraavaksi kokeilin mitä tapahtuu curlaamalla molempien orjien osoitteet:
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/ee783cac-e602-475d-b703-eb56f1d8551e)
+
+Apachen asennus ja uuden sivun luonti on onnistunut. Tämän osion kanssa tuli painittua melko pitkän aikaa, mutta lopulta tulosteet näyttivät oikealta. 
