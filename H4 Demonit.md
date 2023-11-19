@@ -160,3 +160,12 @@ Molemmilla koneilla Succeeded: 2(changed=2). Seuraavaksi kokeilin mitä tapahtuu
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/ee783cac-e602-475d-b703-eb56f1d8551e)
 
 Apachen asennus ja uuden sivun luonti on onnistunut. Tämän osion kanssa tuli painittua melko pitkän aikaa, mutta lopulta tulosteet näyttivät oikealta. 
+
+### d) SSHouto. Lisää uusi portti, jossa SSHd kuuntelee.
+##### Tämä tehtävä on helpointa tehdä tavallisella virtuaalikoneella, jota Vagrant ei ohjaa. Löydät oikean asetuksen katsomalla SSH:n asetustiedostoa. Nyt tarvitaan service-watch, jotta demoni käynnistetään uudelleen, jos asetustiedosto muuttuu masterilla
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/402d28e5-b0fb-4231-814a-94f6a328668c)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/1a2505c5-b96b-4d57-a3ba-206779e700e3)
+
