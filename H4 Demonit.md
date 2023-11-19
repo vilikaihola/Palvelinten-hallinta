@@ -93,28 +93,4 @@ service.watch Puuttuminen: Jos asetustiedosto päivittyy masterilla, se ei vält
 
 ### a) Hello SLS! Tee Hei maailma -tila kirjoittamalla se tekstitiedostoon, esim /srv/salt/hello/init.sls.
 
-Aloitin "Hei maailma" -tilan luomisen SaltStackilla tutustumalla ensin Saltin peruskonsepteihin. Ymmärsin, että tarvitsisin .sls-tiedoston, joka toimisi ohjeistuksena Salt-minioneille suoritettavista toimenpiteistä. Prosessin ensimmäisenä askeleena loin tarvittavan hakemiston Saltin tilatiedostoille komennolla:
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/247215a8-2db3-4a13-87c5-86f9a1f1f809)
-
-Tämän jälkeen siirryin luomaan itse .sls-tiedoston, joka sisältäisi "Hei maailma" -toiminnallisuuden.
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/71a16466-7f30-40ca-8a06-277b168a9270)
-
-kirjoitin tiedostoon seuraavan sisällön:
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/b011f0e7-d714-4cc5-accb-6ae37c31bce0)
-
-Tässä tapauksessa en käyttänyt Salt Master -minion -arkkitehtuuria tehtävän suorittamiseen. Tämä johtui siitä, että tavoitteeni oli yksinkertaisesti demonstroida Saltin perusominaisuuksia yksittäisessä ympäristössä ilman tarvetta konfiguroida monimutkaisempaa Salt Master -minion -asetusta. Lisäksi halusin välttää mahdolliset verkko- tai konfiguraatioon liittyvät ongelmat, jotka voivat ilmetä käytettäessä monimutkaisempaa infrastruktuuria. Tämä yksinkertaistettu lähestymistapa mahdollisti sen, että voisin keskittyä oppimaan Saltin syntaksia ja toimintalogiikkaa ilman ylimääräisiä häiriötekijöitä.
-
-Lopputulos oli onnistunut; tila toimi odotetusti ja sain välittömän palautteen Saltin käyttöliittymästä, mikä vahvisti, että "Hei maailma" -viesti oli tulostettu onnistuneesti. Näin ollen sain kokea Saltin tehokkuuden ja helppokäyttöisyyden automaation alustana.
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/07351afe-20d4-4bc1-98d3-a285fd35a5f3)
-
-### b) Top. Tee top.sls niin, että tilat ajetaan automaattisesti, esim komennolla "sudo salt '*' state.apply".
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/5edeec15-c14e-4022-988a-9bf29fcd841d)
-
-
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/85b643fd-3eb1-4bfb-82f6-f78218e6121d)
 
