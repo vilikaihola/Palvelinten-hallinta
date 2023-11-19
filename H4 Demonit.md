@@ -94,3 +94,12 @@ service.watch Puuttuminen: Jos asetustiedosto päivittyy masterilla, se ei vält
 ### a) Hello SLS! Tee Hei maailma -tila kirjoittamalla se tekstitiedostoon, esim /srv/salt/hello/init.sls.
 
 
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/af9318ed-83e3-4e5a-aa56-21c4aeb6108a)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/2061dc39-d10b-4324-bc68-e253d5bdd097)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/6b16c164-ba57-459c-9661-c44765d33dbc)
+
+### b) Top. Tee top.sls niin, että tilat ajetaan automaattisesti, esim komennolla "sudo salt '*' state.apply".
