@@ -164,6 +164,26 @@ Apachen asennus ja uuden sivun luonti on onnistunut. Tämän osion kanssa tuli p
 ### d) SSHouto. Lisää uusi portti, jossa SSHd kuuntelee.
 ##### Tämä tehtävä on helpointa tehdä tavallisella virtuaalikoneella, jota Vagrant ei ohjaa. Löydät oikean asetuksen katsomalla SSH:n asetustiedostoa. Nyt tarvitaan service-watch, jotta demoni käynnistetään uudelleen, jos asetustiedosto muuttuu masterilla
 
+Avasin komentorivin ja suoritin seuraava komennon luodakseni Salt state -tiedoston: sudo nano /srv/salt/sshd.sls
+
+Kopioin ja liitin seuraavan sisällön tiedostoon:
+openssh-server:
+  pkg.installed
+
+/etc/ssh/sshd_config:
+  file.managed:
+    - source: salt://sshd_config
+
+sshd:
+  service.running:
+    - watch:
+      - file: /etc/ssh/sshd_config
+
+Muokkasin sshd_config tiedostoa Salt-tiedostopuuhun: sudo nano /srv/salt/sshd_config
+ 
+Tämän jälkeen lisäsin konfiguraatiotiedostoon https://terokarvinen.com/2018/04/03/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=karvinen%20salt%20ssh sivulla esitetyn konfiguraation kokonaisuudessaan. Tämän jälkeen suoritin komennon: sudo salt '*' state.apply sshd, jonka jälkeen lopputulos näytti tältä:
+
+
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/402d28e5-b0fb-4231-814a-94f6a328668c)
 
 
