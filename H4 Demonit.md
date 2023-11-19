@@ -112,3 +112,23 @@ Valmisteltuani masterin ja varmistettuani, että minionit T001 ja T002 olivat ve
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/6b16c164-ba57-459c-9661-c44765d33dbc)
 
 ### b) Top. Tee top.sls niin, että tilat ajetaan automaattisesti, esim komennolla "sudo salt '*' state.apply".
+
+Hakemiston ja Tiedoston Valmistelu:
+
+Varmistin, että hakemisto /srv/salt oli olemassa master-koneella.
+Avattuani tekstieditorin, loin tiedoston nimeltä top.sls polkuun /srv/salt/ seuraavalla komennolla:
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/5d9a75e3-1ad7-4014-9f39-6a19607be1c9)
+
+##### top.sls-tiedoston Sisällön Kirjoittaminen:
+
+Kirjoitin top.sls-tiedostoon seuraavan sisällön, joka määrittelee kaikkien minioneiden, kuten T001 ja T002, suorittavan "hello" tilan:
+base:
+  '*':
+    - hello
+
+##### Tilojen Levitys:
+
+Suoritin seuraavan komennon master-koneelta levittääkseni hello-tilan kaikille minioneille, mukaan lukien T001 ja T002: 
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/643bf9cf-aab0-4ac7-97a6-9de27786c547)
