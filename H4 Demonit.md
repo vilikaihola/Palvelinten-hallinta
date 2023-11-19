@@ -139,9 +139,18 @@ Suoritin seuraavan komennon master-koneelta levittääkseni hello-tilan kaikille
 - pkg-file-service
 - Tässä ei tarvita service:ssä watch, koska index.html ei ole asetustiedosto
 
-
+Käsin tehty osuus:
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/00027fac-d874-413b-bbaa-48742ba13500)
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/a5f9465c-e494-4194-bb09-56bdef7e01bd)
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/1590cf12-9419-4fbd-a1da-8b4309bdf05d)
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/2fdd028b-53d7-4abe-ba96-44aa953fa3fb)
 
+Automatisoitu:
+
+Kun olin poistanut Apache2:n ja kokeillut sen poissaolon ( sudo salt 't001' state.single pkg.removed apache2 ) Kirjoitin init.sls tiedostolle seuraavan sisällön: 
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/1d53e351-ef81-4c62-9fd0-f3cb3b818833)
+
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9853a9e2-7cd1-49bc-b109-e03663032932)
