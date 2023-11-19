@@ -183,9 +183,26 @@ Muokkasin sshd_config tiedostoa Salt-tiedostopuuhun: sudo nano /srv/salt/sshd_co
  
 Tämän jälkeen lisäsin konfiguraatiotiedostoon https://terokarvinen.com/2018/04/03/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=karvinen%20salt%20ssh sivulla esitetyn konfiguraation kokonaisuudessaan. Tämän jälkeen suoritin komennon: sudo salt '*' state.apply sshd, jonka jälkeen lopputulos näytti tältä:
 
-
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/402d28e5-b0fb-4231-814a-94f6a328668c)
 
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/1a2505c5-b96b-4d57-a3ba-206779e700e3)
+
+
+### Lähteet
+##### Tehtävänanto:
+https://terokarvinen.com/2023/configuration-management-2023-autumn/
+
+##### Pkg-File-Service – Control Daemons with Salt – Change SSH Server Port: 
+https://terokarvinen.com/2018/04/03/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=karvinen%20salt%20ssh
+
+##### Apache User Homepages Automatically – Salt Package-File-Service Example
+
+https://terokarvinen.com/2018/apache-user-homepages-automatically-salt-package-file-service-example/?fromSearch=salt%20file
+
+##### Salt project
+
+https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html#rules-of-yaml
+
+
 
