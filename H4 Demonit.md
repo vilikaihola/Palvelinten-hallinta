@@ -93,12 +93,21 @@ service.watch Puuttuminen: Jos asetustiedosto päivittyy masterilla, se ei vält
 
 ### a) Hello SLS! Tee Hei maailma -tila kirjoittamalla se tekstitiedostoon, esim /srv/salt/hello/init.sls.
 
+Aloitin luomalla tarvittavan hakemiston Saltin tilatiedostoille. Seuraavaksi siirryin luomaan itse tilatiedoston. Avattuani init.sls-tiedoston komennolla: sudoedit /srv/salt/hello/init.sls.
+
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/af9318ed-83e3-4e5a-aa56-21c4aeb6108a)
+
+Kirjoitin tiedostoon seuraavan tilamäärittelyn: 
+
+ hello_world:
+  cmd.run:
+    - name: echo "Hei maailma!"
 
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/2061dc39-d10b-4324-bc68-e253d5bdd097)
 
+Valmisteltuani masterin ja varmistettuani, että minionit T001 ja T002 olivat verkossa ja odottivat komentoja, suoritin seuraavan komennon tilan levittämiseksi ja suorittamiseksi kohdeminioneilla: 
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/6b16c164-ba57-459c-9661-c44765d33dbc)
 
