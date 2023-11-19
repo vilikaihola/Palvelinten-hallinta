@@ -132,3 +132,22 @@ base:
 Suoritin seuraavan komennon master-koneelta levittääkseni hello-tilan kaikille minioneille, mukaan lukien T001 ja T002: 
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/643bf9cf-aab0-4ac7-97a6-9de27786c547)
+
+### c) Apache. Asenna Apache, korvaa sen testisivu ja varmista, että demoni käynnistyy.
+- Ensin käsin, vasta sitten automaattisesti.
+- Kirjoita tila sls-tiedostoon.
+- pkg-file-service
+- Tässä ei tarvita service:ssä watch, koska index.html ei ole asetustiedosto
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/00027fac-d874-413b-bbaa-48742ba13500)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/a5f9465c-e494-4194-bb09-56bdef7e01bd)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/1590cf12-9419-4fbd-a1da-8b4309bdf05d)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/2fdd028b-53d7-4abe-ba96-44aa953fa3fb)
+
