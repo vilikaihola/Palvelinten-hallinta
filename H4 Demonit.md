@@ -168,7 +168,8 @@ Avasin komentorivin ja suoritin seuraava komennon luodakseni Salt state -tiedost
 
 Kopioin ja liitin seuraavan sisällön tiedostoon:
 openssh-server:
-  pkg.installed
+  
+ pkg.installed
 
 /etc/ssh/sshd_config:
   file.managed:
