@@ -141,8 +141,11 @@ Suoritin seuraavan komennon master-koneelta levittääkseni hello-tilan kaikille
 
 Käsin tehty osuus:
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/00027fac-d874-413b-bbaa-48742ba13500)
+
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/a5f9465c-e494-4194-bb09-56bdef7e01bd)
+
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/1590cf12-9419-4fbd-a1da-8b4309bdf05d)
+
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/2fdd028b-53d7-4abe-ba96-44aa953fa3fb)
 
 Automatisoitu:
