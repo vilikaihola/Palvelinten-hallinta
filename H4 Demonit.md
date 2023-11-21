@@ -140,6 +140,7 @@ Suoritin seuraavan komennon master-koneelta levittääkseni hello-tilan kaikille
 - Tässä ei tarvita service:ssä watch, koska index.html ei ole asetustiedosto
 
 Käsin tehty osuus:
+
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/00027fac-d874-413b-bbaa-48742ba13500)
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/a5f9465c-e494-4194-bb09-56bdef7e01bd)
