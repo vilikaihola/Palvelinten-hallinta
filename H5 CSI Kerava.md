@@ -60,3 +60,18 @@ Tässä tehtävässä vaihdoin VB:llä pyörivän Debian järjestelmäni tasutak
 
 Koitin myös tarkastella tiedoston sisältöä, mutta en onnistunut saaamaan tiedostosta irti muuta kuin binääri muodossa kirjoitetun sisällön, josta en ymmärtänyt mitään.
 ### (c  Komennus. Tee Salt-tila, joka asentaa järjestelmään uuden komennon.
+
+
+Ajoin ensin komennon sudo nano /srv/salt/install_htop.sls, jonne sijoitin seuraavan skriptin:
+
+install_htop:
+  pkg.installed:
+    - name: htop
+
+Tämän jälkeen ajoin komennon sudo salt '*' state.apply install_htop: 
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/6ac4fd60-3bd6-41eb-8ab6-f29c11275bd1)
+
+ Tarkistin, että tila on suoritettu onnistuneesti seuraavalla komennolla:
+
+ ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/045346f4-e705-49c1-9931-c7b172908e63)
