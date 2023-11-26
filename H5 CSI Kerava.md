@@ -53,3 +53,10 @@ Tässä tehtävässä tärkeää on myös ymmärtää, mitä kukin komennon osa 
 -exec ls -lt {} + listaa löydetyt tiedostot yksityiskohtaisesti ja aikajärjestyksessä.
 
 ### (b  Gui2fs. Muokkaa asetuksia jostain graafisen käyttöliittymän (GUI) ohjelmasta käyttäen ohjelman valikoita ja dialogeja. Etsi tämä asetus tiedostojärjestelmästä.
+
+Tässä tehtävässä vaihdoin VB:llä pyörivän Debian järjestelmäni tasutakuvan ja etsin tämän asetuksen tiedostojärjestelmästä. 
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/2f9f77a8-7f33-4f86-a946-f0287f3601e6)
+
+Koitin myös tarkastella tiedoston sisältöä, mutta en onnistunut saaamaan tiedostosta irti muuta kuin binääri muodossa kirjoitetun sisällön, josta en ymmärtänyt mitään.
+### (c  Komennus. Tee Salt-tila, joka asentaa järjestelmään uuden komennon.
