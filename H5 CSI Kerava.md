@@ -86,3 +86,9 @@ Tämän jälkeen jäljellä oli enää tilan soveltaminen kaikkiin Minioneihin S
 
 
 ### (e Ämpärillinen. Tee Salt-tila, joka asentaa järjestelmään kansiollisen komentoja.
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/4e5237a3-07a1-4a99-859a-d86b9dead8e7)
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/29ed63b8-fa9a-4b3b-b846-56a161b3a7df)
+
