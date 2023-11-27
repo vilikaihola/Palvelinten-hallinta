@@ -99,7 +99,9 @@ Sitten loin init.sls tiedoston, jotta saisin ajettua kansiollisen komentoja:
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/f06159c9-0d33-4c4c-82b5-d68a3e67d009)
 
-
+Lopuksi ajoin kokennon 
+    $ sudo salt '*' state.apply command
+ja lopputulos oli vastaava:
 
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/144d1d95-2224-4249-9eeb-f425b6cf7999)
