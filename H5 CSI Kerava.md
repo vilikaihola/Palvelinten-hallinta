@@ -91,12 +91,11 @@ Ensiksi tein 3 uutta komentoa: "haloo", "moro" ja "terve"
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/4e5237a3-07a1-4a99-859a-d86b9dead8e7)
 
-
+Komentojen sisältö:
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/cce8ad5f-bf88-4986-b533-8ab9e754392f)
 
-
-
+Sitten loin init.sls tiedoston, jotta saisin ajettua kansiollisen komentoja:
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/f06159c9-0d33-4c4c-82b5-d68a3e67d009)
 
