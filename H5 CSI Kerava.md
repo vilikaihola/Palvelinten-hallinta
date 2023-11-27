@@ -87,8 +87,20 @@ Tämän jälkeen jäljellä oli enää tilan soveltaminen kaikkiin Minioneihin S
 
 ### (e Ämpärillinen. Tee Salt-tila, joka asentaa järjestelmään kansiollisen komentoja.
 
+Ensiksi tein 3 uutta komentoa: "haloo", "moro" ja "terve"
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/4e5237a3-07a1-4a99-859a-d86b9dead8e7)
 
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/29ed63b8-fa9a-4b3b-b846-56a161b3a7df)
 
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/cce8ad5f-bf88-4986-b533-8ab9e754392f)
+
+
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/f06159c9-0d33-4c4c-82b5-d68a3e67d009)
+
+
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/144d1d95-2224-4249-9eeb-f425b6cf7999)
