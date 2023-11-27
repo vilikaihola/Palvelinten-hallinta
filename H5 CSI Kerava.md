@@ -104,6 +104,7 @@ Lopuksi ajoin kokennon $ sudo salt '*' state.apply command ja lopputulos oli vas
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/144d1d95-2224-4249-9eeb-f425b6cf7999)
 
+
 #### Lähteet
 
 https://terokarvinen.com/2023/configuration-management-2023-autumn/
