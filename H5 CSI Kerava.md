@@ -99,9 +99,16 @@ Sitten loin init.sls tiedoston, jotta saisin ajettua kansiollisen komentoja:
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/f06159c9-0d33-4c4c-82b5-d68a3e67d009)
 
-Lopuksi ajoin kokennon 
-###### $ sudo salt '*' state.apply command 
-ja lopputulos oli vastaava:
+Lopuksi ajoin kokennon $ sudo salt '*' state.apply command ja lopputulos oli vastaava:
 
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/144d1d95-2224-4249-9eeb-f425b6cf7999)
+
+#### Lähteet
+
+https://terokarvinen.com/2023/configuration-management-2023-autumn/
+
+https://terokarvinen.com/2018/04/03/apache-user-homepages-automatically-salt-package-file-service-example/
+
+https://terokarvinen.com/2023/salt-vagrant/#infra-as-code---your-wishes-as-a-text-file
+
