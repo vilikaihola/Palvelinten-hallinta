@@ -82,7 +82,7 @@ Tämän jälkeen ajoin komennon sudo salt '*' state.apply install_htop:
 
 ### (d Apassi. Tee Salt-tila, joka asentaa Apachen näyttämään kotihakemistoja.
 
-Suoritin ensin komennon sudo nano /srv/salt/apache_simple.sls, Tähän tiedostoon laitoin sisällön, joka asentaa apache 2:n, Suorittaa määritellyn komentorivikomennon, Varmistaa, että nimetty palvelu (apache2) on käynnissä ja käynnistää sen uudelleen, jos tarpeen. Lopuksi se seuraa tiettyä resurssia (tässä tapauksessa enable_userdir-komennon suoritusta) ja käynnistää Apache-palvelun uudelleen automaattisesti, jos userdir-moduulin tilassa havaitaan muutoksia. 
+Suoritin ensin komennon sudo nano /srv/salt/apache_simple.sls. Tähän tiedostoon laitoin sisällön, joka asentaa apache 2:n, Suorittaa määritellyn komentorivikomennon, Varmistaa, että nimetty palvelu (apache2) on käynnissä ja käynnistää sen uudelleen, jos tarpeen. Lopuksi se seuraa tiettyä resurssia (tässä tapauksessa enable_userdir-komennon suoritusta) ja käynnistää Apache-palvelun uudelleen automaattisesti, jos userdir-moduulin tilassa havaitaan muutoksia. 
 
 Tämän jälkeen jäljellä oli enää tilan soveltaminen kaikkiin Minioneihin Salt-komennolla:
 
