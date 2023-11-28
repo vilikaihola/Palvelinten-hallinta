@@ -68,7 +68,6 @@ Ajoin ensin komennon sudo nano /srv/salt/install_htop.sls, jonne sijoitin seuraa
 install_htop:
  
   pkg.installed:
-  
     - name: htop
 
 
