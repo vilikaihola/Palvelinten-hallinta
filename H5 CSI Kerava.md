@@ -62,7 +62,7 @@ Koitin myös tarkastella tiedoston sisältöä, mutta en onnistunut saaamaan tie
 ### (c  Komennus. Tee Salt-tila, joka asentaa järjestelmään uuden komennon.
 
 
-Ajoin ensin komennon sudo nano /srv/salt/install_htop.sls, jonne sijoitin seuraavan skriptin:
+Ajoin ensin komennon sudo nano /srv/salt/install_htop.sls, jonne sijoitin seuraavan sisällön:
 
 
 install_htop:
