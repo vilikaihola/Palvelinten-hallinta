@@ -64,9 +64,13 @@ Koitin myös tarkastella tiedoston sisältöä, mutta en onnistunut saaamaan tie
 
 Ajoin ensin komennon sudo nano /srv/salt/install_htop.sls, jonne sijoitin seuraavan skriptin:
 
+
 install_htop:
+ 
   pkg.installed:
+  
     - name: htop
+
 
 Tämän jälkeen ajoin komennon sudo salt '*' state.apply install_htop: 
 
