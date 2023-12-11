@@ -72,20 +72,42 @@ Kun konfiguraatiot oli kirjoitettu, testasit niiden toimivuuden suorittamalla ne
 
 Tulen nyt automatisoimaan seurantaskriptien säännöllisen suorittamisen ja mahdollisesti asettamaan hälytyksiä tietyistä tapahtumista. Tässä vaiheessa käytän SaltStackin ajastus- ja hälytysominaisuuksia.
 
-Lisäsin seuraavan skriptin masterin konfiguraatio tiedostoon:
+Seuraavaksi halusin automatisoida tilojen ajamisen, eli päätin asettaa Salt-tilan, seurantaskriptini tarkoitus on tarkkailla järjestelmän muistin käyttöä ja levytilan käyttöä Minion-koneilla. Tila ajetaan automaattisesti 2 minuutin välein, jotta saadaan näyttöä tuloksista.
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/0b6051bb-c488-40ba-ae9c-6cd7a3560bec)
 
 
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/4b80089a-8694-4029-b8db-88ce3fc46ac1)
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/5ed2c68e-d7d7-467e-af05-be4d1652d1c2)
 
+State apply komennolla tarkistusta että tila on ajettavissa:
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/41335cb6-ff8f-483c-9dfe-174df31f2eff)
 
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9903f994-5bca-4ae0-a982-ed1e66dc6944)
 
-Tässä välissä tekemisestä katosi "Punainen lanka", kun aloin sekoilemaan koneiden konfiguraatio tiedostoissa. Kuten tästä näkyy, homma kuitenkin saatiin toimimaan toimii.
+lisäksi automatisoin vielä pari muuta Salt-tilaa. Kuten tästä näkyy, homma saatiin toimimaan. Toisen tilan tarkoitus oli pingata minioneilla tasaisin väliajoin jatkuvan nettiyhteyden testaamiseksi, ja beacon tilan oli tarkoitus hälyttää aina jos tiedostot muuttuvat.
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/eb1ec431-559b-43f7-9823-5e2c7b73adb7)
 
-#### 7.
+#### 7. Tulokset ja lopetus
 
+Käytettiin komentoa sudo salt-run state.event pretty=True, jotta voitiin tarkastella seurantatapahtumia Minioneilta.
+
+Pingaus tila:
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/7cb13d3e-db30-4161-9f2d-385b70c45694)
+
+Tila joka hälyttää jos tiedostot muuttuvat. HUOM. Tiedostot eivät ole muuttuneet ja siksi ilmoitus false.
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/fa26fe8c-d5f6-4a96-ba7f-19385ccee481)
+
+
+Lopuksi vielä seurantakripti:
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/def05d8f-858d-485e-8bb6-affad98f0f60)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/ca6e1b64-2b44-4ef1-811b-23eadabc489c)
 
 
