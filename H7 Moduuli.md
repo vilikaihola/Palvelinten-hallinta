@@ -79,4 +79,8 @@ lisäsin seuraavan skriptin masterin konfiguraatio tiedostoon:
 
 
 
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9903f994-5bca-4ae0-a982-ed1e66dc6944)
+
+
+
 
