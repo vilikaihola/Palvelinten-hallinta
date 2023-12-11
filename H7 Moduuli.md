@@ -108,6 +108,5 @@ Lopuksi vielä seurantakripti:
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/def05d8f-858d-485e-8bb6-affad98f0f60)
 
 
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/ca6e1b64-2b44-4ef1-811b-23eadabc489c)
 
 
