@@ -1,6 +1,9 @@
 ### Oma moduuli
 SaltStack Automaation ja Hallinnan Moduuli
-Johdanto
+
+
+###### Johdanto
+
 Tämä projekti keskittyy kehittämään SaltStack-pohjaista moduulia, jonka tarkoituksena on tehostaa ja yksinkertaistaa IT-infrastruktuurin hallintaa. Projektissa luodaan ratkaisu, joka automatisoi perustason toimintoja, kuten ohjelmistojen asennukset, käyttäjähallinnan ja järjestelmän seurannan, käyttäen yksinkertaista infrastruktuuria, jossa on yksi master ja kaksi slavea.
 
 Tämän moduulin tavoitteena on parantaa järjestelmän tehokkuutta ja vakautta, samalla tarjoten joustavuutta ja laajennettavuutta. Projekti dokumentoi kehitysprosessin, haasteet ja ratkaisut, tarjoten käsityksen SaltStackin monipuolisista käyttömahdollisuuksista infrastruktuurin hallinnassa.
@@ -75,5 +78,5 @@ lisäsin seuraavan skriptin masterin konfiguraatio tiedostoon:
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/4b80089a-8694-4029-b8db-88ce3fc46ac1)
 
 
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/2baf63f6-28f0-45c2-bbe4-3086ab1a6d56)
+
 
