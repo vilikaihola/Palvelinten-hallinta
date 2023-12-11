@@ -1,7 +1,7 @@
 ### Oma moduuli
 SaltStack Automaation ja Hallinnan Moduuli
 
-
+ 
 ###### Johdanto
 
 Tämä projekti keskittyy kehittämään SaltStack-pohjaista moduulia, jonka tarkoituksena on tehostaa ja yksinkertaistaa IT-infrastruktuurin hallintaa. Projektissa luodaan ratkaisu, joka automatisoi perustason toimintoja, kuten ohjelmistojen asennukset, käyttäjähallinnan ja järjestelmän seurannan, käyttäen yksinkertaista infrastruktuuria, jossa on yksi master ja kaksi slavea.
