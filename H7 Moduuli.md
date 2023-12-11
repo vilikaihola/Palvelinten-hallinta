@@ -72,7 +72,7 @@ Kun konfiguraatiot oli kirjoitettu, testasit niiden toimivuuden suorittamalla ne
 
 Tulen nyt automatisoimaan seurantaskriptien säännöllisen suorittamisen ja mahdollisesti asettamaan hälytyksiä tietyistä tapahtumista. Tässä vaiheessa käytän SaltStackin ajastus- ja hälytysominaisuuksia.
 
-lisäsin seuraavan skriptin masterin konfiguraatio tiedostoon:
+Lisäsin seuraavan skriptin masterin konfiguraatio tiedostoon:
 
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/4b80089a-8694-4029-b8db-88ce3fc46ac1)
