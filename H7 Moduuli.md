@@ -109,4 +109,20 @@ Lopuksi vielä seurantakripti:
 
 
 
+Projekti päättyi onnistuneesti, ja se paransi infrastruktuurin hallintaa. SaltStackin avulla automatisoitiin useita tehtäviä, mikä säästi aikaa ja varmisti yhtenäisen ja toistettavan järjestelmänhallinnan. Jatkossa projektia voidaan laajentaa lisäämällä uusia Salt State -tiloja ja parantamalla seurantaa entisestään.
 
+#### Lähteet
+
+Tehtävänanto:
+
+https://terokarvinen.com/2023/configuration-management-2023-autumn/
+
+Herra-orja arkkitehtuurin konfiguroiminen:
+
+https://terokarvinen.com/2023/salt-vagrant/
+
+Beaconeista:
+
+https://docs.saltproject.io/en/latest/topics/beacons/index.html
+
+https://docs.saltproject.io/en/latest/topics/jobs/index.html
