@@ -1,5 +1,4 @@
 ### Oma moduuli
-SaltStack Automaation ja Hallinnan Moduuli
 
  
 ###### Johdanto
