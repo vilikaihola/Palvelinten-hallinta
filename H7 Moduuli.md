@@ -107,6 +107,12 @@ Lopuksi vielä seurantakripti:
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/def05d8f-858d-485e-8bb6-affad98f0f60)
 
 
+Palasin vielä myöhemmin tarkistamaan koneiden tilat, ja ne pyörivät edelleen odotetusti: 
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/a4511ffa-182a-432a-9560-f3e9797102df)
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/2e72b59c-1f9f-43da-aacb-a96e97e5e269)
+
 
 Projekti päättyi onnistuneesti, ja se paransi infrastruktuurin hallintaa. SaltStackin avulla automatisoitiin useita tehtäviä, mikä säästi aikaa ja varmisti yhtenäisen ja toistettavan järjestelmänhallinnan. Jatkossa projektia voidaan laajentaa lisäämällä uusia Salt State -tiloja ja parantamalla seurantaa entisestään.
 
