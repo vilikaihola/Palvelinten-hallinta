@@ -24,7 +24,7 @@ init.sls tiedoston sisältö:
 #### 3. Ohjelmiston asennuksen testaus
 Testattiin luodun Salt Staten toimivuutta asentamalla htop ohjelmisto Salt Minioneille t001 ja t002. Tämä tehtiin suorittamalla komento sudo salt 't00*' state.apply software Salt Masterilla tmaste. Komento pyysi Salt Masteria soveltamaan software-nimistä tilaa kaikille Minioneille, joiden nimet alkavat t00. Tämän suorituksen tarkoituksena oli varmistaa, että htop asennettiin oikein jokaiseen määritettyyn Minioniin. Komennon suoritus tarjosi palautteen asennuksen onnistumisesta tai mahdollisista virheistä, antaen näin tietoa Salt Staten toiminnasta käytännössä.
 
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/d186c368-100a-4894-8d6c-779bb05a3c2c
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/d186c368-100a-4894-8d6c-779bb05a3c2c)
 
 #### 4. 
 
