@@ -68,7 +68,7 @@ Kun konfiguraatiot oli kirjoitettu, testasit niiden toimivuuden suorittamalla ne
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/364b4873-1f27-4a18-8279-e74464873530)
 
 
-#### 7. 
+#### 6. 
 
 Tulen nyt automatisoimaan seurantaskriptien säännöllisen suorittamisen ja mahdollisesti asettamaan hälytyksiä tietyistä tapahtumista. Tässä vaiheessa käytän SaltStackin ajastus- ja hälytysominaisuuksia.
 
@@ -81,6 +81,11 @@ Lisäsin seuraavan skriptin masterin konfiguraatio tiedostoon:
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9903f994-5bca-4ae0-a982-ed1e66dc6944)
 
+Tässä välissä tekemisestä katosi "Punainen lanka", kun aloin sekoilemaan koneiden konfiguraatio tiedostoissa. Kuten tästä näkyy, homma kuitenkin saatiin toimimaan toimii.
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/eb1ec431-559b-43f7-9823-5e2c7b73adb7)
+
+#### 7.
 
 
 
