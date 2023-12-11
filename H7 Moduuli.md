@@ -45,8 +45,35 @@ Konkreettisesti luotiin kaksi tiedostoa: monitorointi.sls muistin käytön tarka
 Tässä .sls tiedostojen sisällöt:
 
 
-![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/e9a84541-5b31-4ff3-94be-d8da25359c18) ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/eb73040c-66bd-4a3c-91e1-831877fb13e7)
+
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/3dc919ea-53a0-48b1-88c7-f63bd2e6eec4)  ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/e1a0ccc3-a6a1-42aa-814e-71793ea20303)
+
+
 
 
 
 Kun konfiguraatiot oli kirjoitettu, testasit niiden toimivuuden suorittamalla ne tmaste-koneelta käyttäen Saltin state.apply-komentoa. Tämä komento käynnisti seurantaskriptit Minioneilla, ja sen jälkeen tarkastelit tulosteita varmistaaksesi, että sait tarvittavat tiedot muistin ja levytilan käytöstä kultakin Minionilta.
+
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/d3fb7bdc-434c-4c50-b780-920aa5850e8a)
+
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/364b4873-1f27-4a18-8279-e74464873530)
+
+
+#### 7. 
+
+Tulen nyt automatisoimaan seurantaskriptien säännöllisen suorittamisen ja mahdollisesti asettamaan hälytyksiä tietyistä tapahtumista. Tässä vaiheessa käytän SaltStackin ajastus- ja hälytysominaisuuksia.
+
+lisäsin seuraavan skriptin masterin konfiguraatio tiedostoon:
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/4b80089a-8694-4029-b8db-88ce3fc46ac1)
+
+
+![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/2baf63f6-28f0-45c2-bbe4-3086ab1a6d56)
+
