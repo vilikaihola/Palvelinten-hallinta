@@ -7,10 +7,10 @@ Tämä projekti keskittyy kehittämään SaltStack-pohjaista moduulia, jonka tar
 
 Tämän moduulin tavoitteena on parantaa järjestelmän tehokkuutta ja vakautta, samalla tarjoten joustavuutta ja laajennettavuutta. Projekti dokumentoi kehitysprosessin, haasteet ja ratkaisut, tarjoten käsityksen SaltStackin monipuolisista käyttömahdollisuuksista infrastruktuurin hallinnassa.
 
-#### 1. Ympäristön Tarkistus ja Valmistelu
+#### 1. Ympäristön tarkistus ja valmistelu
 Ihan ensimmäiseksi ajoin omalla raudallani vagrant destroy käskyn, ja sitten alustin masterin ja 2 orjaa uudelleen. Noudatin tässä jo h2:ssa käytettyjä ohjeita.
 
-#### 2. Ohjelmistojen Hallintamoduulin Perustaminen
+#### 2. Ohjelmistojen hallintamoduulin perustaminen
 
 Luodaan yksinkertainen Salt State, joka asentaa htop-ohjelmiston. pkg.installed on Saltin sisäänrakennettu toiminto, joka varmistaa, että määritellyt paketit ovat asennettuja. Tämä toimii sekä Debian- että Red Hat -pohjaisissa järjestelmissä.
 
@@ -25,7 +25,7 @@ Testattiin luodun Salt Staten toimivuutta asentamalla htop ohjelmisto Salt Minio
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/d186c368-100a-4894-8d6c-779bb05a3c2c)
 
-#### 4. 
+#### 4. Käyttäjähallinnan testaus
 
 Tässä vaiheessa ensin luotiin uusi hakemisto /srv/salt/users Salt Master -koneella tmaster. Tämän jälkeen luotiin uusi Salt State -tiedosto nimeltä init.sls tässä hakemistossa. Tiedostoon kirjoitettiin konfiguraatio, joka määritteli uuden käyttäjätunnuksen luomisen Minioneille t001 ja t002. Konfiguraatio sisälsi käyttäjänimen, täydellisen nimen ja käytettävän shellin määrittelyn. Tämä toimi osana projektin tavoitetta automatisoida ja yhtenäistää käyttäjähallinta koko Salt-ympäristössä.
 
@@ -39,7 +39,7 @@ Tässä vaiheessa käytettiin komentoa sudo salt 't00*' state.apply users testat
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/a0455913-2f3c-4512-a2ee-554a86e52d09)
 
-#### 5. 
+#### 5.  Järjestelmän seurantaskriptien luominen ja testaus
 Keskityin nyt järjestelmän seurantaskriptien luomiseen ja testaamiseen SaltStackin avulla. Tässä vaiheessa ensin luotiin uusia Salt States -tiedostoja Salt Master -koneella tmaster hakemistossa /srv/salt/. Nämä tiedostot sisälsivät skriptejä järjestelmän muistin ja levytilan käytön seurantaan.
 
 Konkreettisesti luotiin kaksi tiedostoa: monitorointi.sls muistin käytön tarkasteluun ja kovalevynmuisti.sls levytilan käytön seurantaan. Nämä tiedostot sisälsivät Salt States -konfiguraatioita, jotka suorittivat järjestelmäkomentoja (free -m muistille ja df -h levytilalle) Minioneilla t001 ja t002.
@@ -67,7 +67,7 @@ Kun konfiguraatiot oli kirjoitettu, testasit niiden toimivuuden suorittamalla ne
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/364b4873-1f27-4a18-8279-e74464873530)
 
 
-#### 6. 
+#### 6. Jatkuva Seuranta ja Hallinta
 
 Tulen nyt automatisoimaan seurantaskriptien säännöllisen suorittamisen ja mahdollisesti asettamaan hälytyksiä tietyistä tapahtumista. Tässä vaiheessa käytän SaltStackin ajastus- ja hälytysominaisuuksia.
 
