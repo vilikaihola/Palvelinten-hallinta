@@ -86,7 +86,7 @@ State apply komennolla tarkistusta että tila on ajettavissa:
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/9903f994-5bca-4ae0-a982-ed1e66dc6944)
 
-lisäksi automatisoin vielä pari muuta Salt-tilaa. Kuten tästä näkyy, homma saatiin toimimaan. Toisen tilan tarkoitus oli pingata minioneilla tasaisin väliajoin jatkuvan nettiyhteyden testaamiseksi, ja beacon tilan oli tarkoitus hälyttää aina jos tiedostot muuttuvat.
+Lisäksi automatisoin vielä pari muuta Salt-tilaa. Kuten tästä näkyy, homma saatiin toimimaan. Toisen tilan tarkoitus oli pingata minioneilla tasaisin väliajoin jatkuvan nettiyhteyden testaamiseksi, ja beacon tilan oli tarkoitus hälyttää aina jos tiedostot muuttuvat.
 
 ![image](https://github.com/vilikaihola/Palvelinten-hallinta/assets/148875596/eb1ec431-559b-43f7-9823-5e2c7b73adb7)
 
