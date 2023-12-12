@@ -5,7 +5,7 @@
 
 Projektin ympäristö on virtuaalinen testiympäristö, joka on luotu Vagrantin avulla. Tämä ympäristö sisältää yhden Salt Master -koneen ja kaksi Salt Minion -koneita, t001 ja t002, jotka simuloivat IT-infrastruktuurin hallintaa
 
-Tämän moduulin tavoitteena on parantaa järjestelmän tehokkuutta ja vakautta, samalla tarjoten joustavuutta ja laajennettavuutta. Projekti dokumentoi kehitysprosessin, haasteet ja ratkaisut, tarjoten käsityksen SaltStackin monipuolisista käyttömahdollisuuksista infrastruktuurin hallinnassa.
+Tämän moduulin tavoitteena on parantaa järjestelmän vakautta, samalla tarjoten joustavuutta sekä mitata toimivuutta. Projekti dokumentoi kehitysprosessin, haasteet ja ratkaisut, tarjoten käsityksen SaltStackin monipuolisista käyttömahdollisuuksista infrastruktuurin hallinnassa.
 
 #### 1. Ympäristön tarkistus ja valmistelu
 Ihan ensimmäiseksi ajoin omalla raudallani vagrant destroy käskyn, ja sitten alustin masterin ja 2 orjaa uudelleen. Noudatin tässä jo h2:ssa käytettyjä ohjeita.
